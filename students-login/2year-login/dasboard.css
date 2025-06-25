@@ -1,0 +1,284 @@
+*{
+    padding:0;
+    margin: 0;
+    
+    
+    }body{ 
+        background-color: rgb(189, 189, 189);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+        
+    }
+    
+    span{
+        color: darkslategrey;
+      }
+      .i{
+          padding-top: 15px;
+          padding-bottom: 15px;
+          margin-top: 1.5%;
+          text-align: center;
+          color: darkslategray;
+          font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          text-decoration:dotted;
+          background-color:rgb(232, 238, 232);
+      
+      }
+      footer{
+        margin-top: 90%;
+    }
+    
+    .head-low{
+        background-color: white;
+        word-spacing: 3px;
+        color: black;
+        box-shadow: darkslategray 2px 1px 2.3px;
+    } 
+    header{
+        text-align: center;
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+    strong{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 2px;
+    
+    }
+    /* Style the navigation menu */
+    .topnav {
+        overflow: hidden;
+        background-color:darkslategray;
+        position: relative;
+      }
+      
+      /* Hide the links inside the navigation menu (except for logo/home) */
+      .topnav #links {
+        display: none;
+      }
+      
+      /* Style navigation menu links */
+      .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+      }
+      
+      /* Style the hamburger menu */
+      .topnav a.icon {
+        background:red;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      
+    /* Add a grey background color on mouse-over */
+    .topnav a:hover {
+        background-color: green;
+        color: whitesmoke;
+      }
+      
+      /* Style the active link (or home/logo) */
+      .active {
+        background-color:green;
+       color:white;
+      }  
+    .text-anim{
+        width: 15%;
+        top: 50%;
+        position: relative;
+        left: 40%;
+        border-bottom: 5px solid darkslategrey;
+        overflow: hidden;
+        animation: animate 1s linear forwards;
+    }
+    @keyframes animate {
+        0% {
+            width: 35px;
+            height: 0px; 
+        }
+        30%{
+            width: 85px;
+            height: 0px;
+        }
+        60%{
+            width: 140px;
+            height: 15px;
+        }
+        100%{
+            width: 150px;
+            height: 20px;
+        }
+    }
+    h3{
+        text-align: center;
+    }
+    .link ,a{
+        margin-left: 10%;
+        text-decoration: none;
+        letter-spacing: 1.5px;
+        color: black;
+    
+    }
+    .link,a:hover{
+        color: green;
+        text-shadow: 0px 0px 2px green;
+    }
+    .row1{
+        margin-top: 12px;
+        letter-spacing: 1.5px;
+    }
+    @media (max-width: 768px) {
+        .semi{
+            font-family:'Trebuchet MS';
+            letter-spacing: 4px;
+            text-shadow: 0 0 7px lightgreen;
+            margin-top: 60%;   
+            position: relative; 
+            left: 50%;
+            position: relative;
+            text-align: center;
+            transform: translate(-50% , -50%);
+        }
+        
+    }
+    .semi{
+        font-family:'Trebuchet MS';
+        letter-spacing: 4px;
+        text-shadow: 0 0 7px lightgreen;
+        margin-top: 20%;
+        left: 50%;
+        position: relative;
+        text-align: center;
+        transform: translate(-50% , -50%);
+         top: 78px;
+         margin-top: 199.200;
+         margin-top: 199.200;
+     
+    }
+    @keyframes semi {
+        0% {
+            border-bottom-color: white;
+            border-left-color: white;
+            border-right-color: white;
+            border-top-color: white;
+            
+        }
+        50%{
+            border-color: white;
+        }
+        
+        100%{
+            border-color: white; 
+            border-top-color: green;
+            border-bottom-color:white;
+            border-left-color: green;
+            border-right-color: green;
+    }
+    
+    }
+    
+    
+    .semi-circle-1-year{
+        position: relative;
+        display: inline-block;
+        width: 10rem;
+        height: 10rem;
+        border-radius: 9rem;
+        margin: 1.9rem;
+        border: 1.2rem solid darkslategray;
+        box-shadow: inset 0 0 7px gray;
+        border-left-color: green;
+        border-top-color:green;
+        /*border-right-color: white;*/
+        border-bottom-color: white;
+        box-sizing: border-box;
+        animation: semi 1s ease;
+    }
+    .semi-circle-2-year{
+        position: relative;
+        display: inline-block;
+        width: 10rem;
+        height: 10rem;
+        border-radius: 9rem;
+        margin: 1.9rem;
+        border: 1.2rem solid darkslategray;
+        box-shadow: inset 0 0 7px gray;
+        border-left-color: green;
+        border-top-color:green;
+        /*border-right-color: white;*/
+        border-bottom-color: white;
+        box-sizing: border-box;
+        animation: semi 1.5s ease;
+    }
+    
+    .semi-circle-3-year{
+        position: relative;
+        display: inline-block;
+        width: 10rem;
+        height: 10rem;
+        border-radius: 9rem;
+        margin: 1.9rem;
+        border: 1.2rem solid darkslategray;
+        box-shadow: inset 0 0 7px darkslategrey;
+        border-left-color: green;
+        /*border-top-color:white ;
+        border-right-color: white;*/
+        border-bottom-color: white;
+        box-sizing: border-box;
+        animation: semi 2s ease;
+    }
+    
+    .semi-value-1-year{
+        top: 40px;
+        position: absolute;
+        left: 10px;
+        right: 0;
+        font-weight: 700;
+        font-size: 2.0rem;
+    }
+    .semi-lable-1-year{
+        left: 0;
+        bottom: -16px;
+        text-shadow: 0 0 4px gray;
+        color: black;
+        position: absolute;
+        width: 100%;
+        font-size: 16px;
+    }
+    .semi-value-2-year{
+        top: 40px;
+        position: absolute;
+        left: 10px;
+        right: 0;
+        font-weight: 700;
+        font-size: 2.0rem;
+    }
+    .semi-lable-2-year{
+        left: 0;
+        bottom: -16px;
+        text-shadow: 0 0 4px gray;
+        color: black;
+        position: absolute;
+        width: 100%;
+        font-size: 16px;
+    }
+    .semi-value-3-year{
+        top: 40px;
+        position: absolute;
+        left: 10px;
+        right: 0;
+        font-weight: 700;
+        font-size: 2.0rem;
+    }
+    .semi-lable-3-year{
+        left: 0;
+        bottom: -16px;
+        text-shadow: 0 0 4px gray;
+        color: black;
+        position: absolute;
+        width: 100%;
+        font-size: 16px;
+    }

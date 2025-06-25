@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FACULTY-LOGIN</title>
+    <link rel="stylesheet" href="LOGIN.CSS">
+    <link rel="icon" href="sgac.jpg">
+</head>
+<body>
+    <H4>FACULTY-LOGIN</H4>
+    <img src="sgac.jpg">
+    <form name="form" onsubmit="return fun()" action="dass.html">
+        <label>Teacher No:</label>
+        <input type="tel" name="tel" placeholder="Enter your No"  id="id"    autocomplete="off">    
+        <br> 
+    <input type="submit" class="Submit" value="SUBMIT">
+    <input type="reset" value="RESET" class="Reset">
+    <div id="Reg-error">
+
+    </div>
+    <script>
+
+
+function fun(){
+    var tel= document.forms["form"] ["tel"].value;
+    
+  var pass = 2000;
+    if(tel==null || tel=="") {
+        document.getElementById("Reg-error").innerHTML ="Enter Correct RegNo";
+        alert("Enter the correct register number ")
+        return false;
+        
+    }
+    if (tel != pass ) {
+        alert("Enter the corect password");
+        document.getElementById("Reg-error").innerHTML="PLEASES ENTER THE CORRECT REGNO ";
+        return false;
+    }
+    
+   }
+
+</script>
+</form>
+</body>
+</html>

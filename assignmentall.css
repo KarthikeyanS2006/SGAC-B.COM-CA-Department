@@ -1,0 +1,14 @@
+body{
+    text-align: center
+
+}
+
+a{
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    background-color: darkslategray;
+    margin-bottom: 1pc;
+
+}
+

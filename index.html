@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FACULTY-LOGIN</title>
+    <link rel="stylesheet" href="LOGIN.CSS">
+    <link rel="icon" href="sgac.jpg">
+</head>
+<body>
+    <header>
+        
+    <img src="sgac.jpg">
+        <h4>SETHUPATHY GOVERMENT ARTS COLLEGE</h4>
+        <P>RAMANATHAPUTAM</P>
+     <span><strong>BCOMCA</strong></span>
+        
+        <HR>
+            
+    </header>
+    <form name="form" onsubmit="return fun()" action="connect.html">
+        <label>FACULTY No:</label>
+        <input type="tel" name="tel" placeholder="Enter your No"  id="id"    autocomplete="off">    
+        <br> 
+    <input type="submit" class="Submit" value="SUBMIT">
+    <input type="reset" value="RESET" class="Reset">
+    <div id="Reg-error">
+
+    </div>
+    <script>
+
+
+function fun(){
+    var tel= document.forms["form"] ["tel"].value;
+    
+  var pass = 2024;
+    if(tel==null || tel=="") {
+        document.getElementById("Reg-error").innerHTML ="Enter Correct RegNo";
+        alert("ENTER THE FACILITY NUMBER ")
+        return false;
+        
+    }
+    if (tel != pass ) {
+        alert("Enter the corect password");
+        document.getElementById("Reg-error").innerHTML="PLEASES ENTER THE CORRECT REGNO ";
+        return false;
+    }
+    
+   }
+
+</script>
+</form>
+
+<footer>
+    <marquee> THIS WEBSITE IS CREATED BY BCOMCA IT WINGS 2024</marquee>
+</footer>
+
+</body>
+</html>

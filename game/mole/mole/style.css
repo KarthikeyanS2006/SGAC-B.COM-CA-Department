@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f0e68c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Arial', sans-serif;
+  overflow: hidden;
+}
+
+.game-container {
+  text-align: center;
+  width: 90%;
+  max-width: 500px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #4b5320;
+  font-size: 2rem;
+}
+
+.score-board {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #4b5320;
+}
+
+#start-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  background-color: #556b2f;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+#start-button:hover {
+  background-color: #6b8e23;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  justify-items: center;
+  align-items: center;
+}
+
+.hole {
+  width: 100%;
+  padding-top: 100%;
+  position: relative;
+  background-color: #8b4513;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: inset -5px -5px 0 rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.hole.glow {
+  box-shadow: 0 0 10px 5px rgba(255, 255, 0, 0.7);
+}
+
+.mole {
+  width: 60%;
+  height: 60%;
+  background-color: #000;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -60%;
+  left: 20%;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  background-image: url('https://i.imgur.com/OdL0XPt.png');
+  background-size: cover;
+}
+
+.mole.up {
+  animation: bounce 0.3s ease-in-out forwards;
+}
+
+.mole.hit {
+  animation: shake 0.3s ease-in-out;
+}
+
+@keyframes bounce {
+  0% {
+    bottom: -60%;
+  }
+  50% {
+    bottom: 15%;
+  }
+  100% {
+    bottom: 10%;
+  }
+}
+
+@keyframes shake {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  75% {
+    transform: translateX(-5px);
+  }
+}
+
+@media (min-width: 600px) {
+  .grid {
+    grid-gap: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .game-container {
+    max-width: 600px;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  .hole {
+    transition: all 0.2s ease-in-out;
+  }
+}

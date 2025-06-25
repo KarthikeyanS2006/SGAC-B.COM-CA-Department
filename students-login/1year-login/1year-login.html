@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1 YEAR LOGIN PAGE</title>
+    <link rel="icon" href="sgac.jpg">
+    <link rel="stylesheet" href="1year-login.css">
+</head>
+<body>
+    <header class="i"><h3>SETHUPATHY GOVERMENT ARTS COLLEGE 
+   
+    </h3>
+   <H4><span>BCOM C.A</span></H4></header>  
+    <h3>1-YEAR LOGIN</h3>
+    <form name="form" onsubmit="return fun()" action="1year-dasboard.html">
+        <label>REG NO :</label>
+        <input type="tel" name="tel" placeholder="Enter your RegNo"  id="id"    autocomplete="off">    
+        <br> 
+            <br>
+           <label>PASSWORD:</label> 
+           <input type="password" name="pass" placeholder="Enter Password"   id="pass"   autocomplete="off">
+           <br>
+    <div id="date-error"></div>
+    <input type="submit" class="Submit" value="SUBMIT">
+    
+    <input type="reset" value="RESET" class="Reset">
+    <div id="Reg-error">
+
+    </div>
+    <script>
+
+function fun(){
+    var tel= document.forms["form"] ["tel"].value;
+    var pass=document.forms["form"]["pass"].value;
+    
+    var password = "2024/2027"
+    if(tel==null || tel=="") {
+        
+        alert("Enter the corect regno");
+        document.getElementById("Reg-error").innerHTML ="Enter Correct RegNo";
+        return false;
+        
+    }
+    if (tel <1622152000) {
+        
+        alert("Enter the corect regno");
+        document.getElementById("Reg-error").innerHTML="PLEASES ENTER THE CORRECT REGNO ";
+        return false;
+    }
+    if (tel <1624152000) {
+        
+        alert("Enter the corect regno");
+        document.getElementById("Reg-error").innerHTML="PLEASES ENTER THE CORRECT REGNO ";
+        return false;
+    }
+    if (tel <1623152000) {
+        
+        alert("Enter the corect regno");
+        document.getElementById("Reg-error").innerHTML="PLEASES ENTER THE CORRECT REGNO ";
+        return false;
+    }
+    else if (pass != password) {
+        
+        alert("Enter the corect password");
+        document.getElementById("Reg-error").innerHTML="ENTER CORRECT PASSWORD ";
+        return false;
+    }
+    if(pass==null || pass=="") {
+        
+        alert("Enter the corect password");
+    document.getElementById("Reg-error").innerHTML ="Enter Correct Date Of Birth";
+    return false;
+        
+    }
+   }
+
+
+</script>
+</form>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="1year-login.css">
+</head>
+<body>
+    <form name="form" onsubmit="return fun()" action="index.html">
+        <label>REG NO :</label>
+        <input type="tel" name="tel" placeholder="Enter your RegNo"  id="id"    autocomplete="off">    
+        <br> 
+    <br>
+    <input type="submit" class="Submit" value="SUBMIT">
+    <input type="reset" value="RESET" class="Reset">
+    <div id="Reg-error">
+
+    </div>
+    <script>
+
+function fun(){
+    var tel= document.forms["form"] ["tel"].value;
+    if(tel==null || tel=="") {
+        document.getElementById("Reg-error").innerHTML ="Enter Correct RegNo";
+        return false;
+        
+    }
+    if (tel === 2024) {
+        document.getElementById("Reg-error").innerHTML="PLEASES ENTER THE CORRECT REGNO ";
+        return false;
+    }
+    
+   }
+
+</script>
+</form>
+</body>
+</html>

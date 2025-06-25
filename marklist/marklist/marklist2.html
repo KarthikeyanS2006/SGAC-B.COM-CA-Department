@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Mark List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Student Mark List</h1>
+        <form id="markForm">
+            <label for="studentName">Student Name:</label>
+            <input type="text" id="studentName" required>
+
+            <label for="subject1">CORPURATE ACOUNNTING :</label>
+            <input type="number" id="subject1" min="0" max="100" required>
+
+            <label for="subject2">BUSINESS STASTICS AND MATHEMETICS :</label>
+            <input type="number" id="subject2" min="0" max="100" required>
+
+            <label for="subject3">PROGRAMING IN JAVA :</label>
+            <input type="number" id="subject3" min="0" max="100" required>
+
+            <label for="subject4">TAMIL:</label>
+            <input type="number" id="subject4" min="0" max="100" required>
+
+            <label for="subject5">ENGLISH:</label>
+            <input type="number" id="subject5" min="0" max="100" required>
+
+            <button type="submit">Submit Marks</button>
+        </form>
+
+        <div id="resultContainer" style="display:none;">
+            <h2>Mark List</h2>
+            <p id="studentInfo"></p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Subject</th>
+                        <th>Marks</th>
+                    </tr>
+                </thead>
+                <tbody id="marksTable">
+                    <!-- Marks will be dynamically inserted here -->
+                </tbody>
+            </table>
+            <h3 id="percentage"></h3>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,248 @@
+@media screen and (max-width:678px) {
+    
+    /*phone*/
+    footer{
+        margin-top: 90%;
+    }
+    
+    body{
+    
+        font-family: Cambria, Cochin, 'Georgia', Times, serif;
+        background-color: white;
+        text-align: center;
+    align-content: center;
+    
+    }
+    
+    img{
+        padding-left: 45%;
+        max-width: 200px;
+        position: relative;
+    }
+    header{
+        position: relative;
+    }
+    H4{
+        display: 0;
+        text-align: center;
+    }
+    marquee{
+        color: red;
+        font-size:xx-small;
+    }
+    form{
+        display: inline-block;
+        align-content: center;
+        text-align: center;
+        margin-top: 25%;
+        background-color:darkslategray;
+        margin-left: 10%;
+        margin-right: 20%;
+        padding: 40px 20%;
+        border-radius: 10px;
+        color: white;
+    }
+    form:hover{
+        box-shadow: 0 0 20px gray;
+    }
+    label { 
+        color: whitesmoke;
+        letter-spacing: 1.2px;
+        text-align: center;
+    
+    }
+    #id{
+        border: 0;
+        outline: 0;
+        border-radius: 0;
+        background-color:transparent;
+        border-bottom: 2px solid red;
+        color: whitesmoke;
+        margin-bottom: 12px;
+        
+    }
+
+    #pass{
+    
+        border: 0;
+        outline: 0;
+        border-radius: 0;
+        background-color:transparent;
+        border-bottom: 2px solid red;
+        text-align: center;
+        align-content: end;
+        margin-left: 5px;
+        color: whitesmoke;
+        text-shadow: 0 0 15px transparent;
+    }
+    
+    hr{
+        background-color: red;
+    }
+    #id:hover{
+        
+        transition: all 0.2s ease;
+        border-radius: 7px;
+    }
+    #pass:hover{
+        transition: all 0.2s ease;
+        border-radius: 7px;
+        border:  2px solid white;
+        box-shadow: 0 0 20px whitesmoke;
+    }
+    
+    .Submit{
+        margin-top: 5px;
+        border: 0;
+        outline: 0;
+        padding: 10px 10px;
+        color: white;
+        background-color: green;
+        border-radius: 15px;
+        margin-left: 11px;
+    
+    }
+    .Submit:hover{
+        transition: all 0.3s linear;
+        outline: 0;
+    }
+    .Reset{
+        margin-top: 5px;
+        border: 0;
+        outline: 0;
+        padding: 10px 10px;
+        color: white;
+        background-color: red;
+        border-radius: 15px;
+        margin-left: 11px;
+    }
+    .Reset:hover{
+        box-shadow: 0 0 20px red;
+        outline: 0;
+    }
+    #Reg-error{
+    color: red;
+    
+    }
+    
+    }
+    
+    
+    
+    
+    @media screen and  (min-width:678px) {
+    
+      /*computer*/
+    body{
+         border: 0;
+         outline: 0;
+        font-family: Cambria, Cochin, 'Georgia', Times, serif;
+        background-color: rgb(218, 32, 32);
+        text-align: center;
+    align-content: center;
+    
+    }
+    
+    img{
+        padding-left: 90%;
+        max-width: 60px;
+        position: relative;
+    }
+    header{
+        position: relative;
+    }
+    H4{
+        display: 0;
+        text-align: center;
+    }
+    
+    form{
+        margin-top: 25%;
+        background-color:darkslategray;
+        margin-left: 20%;
+        margin-right: 20%;
+        padding: 40px 20%;
+        border-radius: 10px;
+        color: white;
+    }
+    label { 
+        color: whitesmoke;
+        letter-spacing: 1.2px;
+        text-align: center;
+    
+    }
+    #id{
+        border: 0;
+        outline: 0;
+        border-radius: 0;
+        background-color:transparent;
+        border-bottom: 2px solid red;
+        text-align: center;
+        align-content: end;
+        margin-left: 5px;
+        color: whitesmoke;
+        text-shadow: 0 0 15px transparent;
+        
+    }
+    #pass{
+    
+        border: 0;
+        outline: 0;
+        border-radius: 0;
+        background-color:transparent;
+        border-bottom: 2px solid red;
+        text-align: center;
+        align-content: end;
+        margin-left: 5px;
+        color: whitesmoke;
+        text-shadow: 0 0 15px transparent;
+    }
+    
+    #id:hover{
+        
+        transition: all 0.2s ease;
+        border-radius: 7px;
+    }
+    #pass:hover{
+        transition: all 0.2s ease;
+        border-radius: 7px;
+        border:  2px solid white;
+        box-shadow: 0 0 20px whitesmoke;
+    }
+    
+    .Submit{
+        margin-top: 5px;
+        border: 0;
+        outline: 0;
+        padding: 15px 20px;
+        color: white;
+        background-color: green;
+        border-radius: 15px;
+        margin-left: 11px;
+    
+    }
+    .Submit:hover{
+        transition: all 0.3s linear;
+        outline: 0;
+    }
+    .Reset{
+        margin-top: 5px;
+        border: 0;
+        outline: 0;
+        padding: 15px 20px;
+        color: white;
+        background-color: red;
+        border-radius: 15px;
+        margin-left: 11px;
+    }
+    .Reset:hover{
+        
+        border-bottom: 5px solid white;
+        outline: 0;
+    }
+    #Reg-error{
+    color: red;
+    
+    }  
+        
+    }
