@@ -1,4 +1,3 @@
-# SGAC B.COM CA Department - Student Management System
 ### **LIVE SITE📍**
   [CLick here to view the site](https://karthikeyans2006.github.io/SGAC-B.COM-CA-Department/)
 
@@ -25,6 +24,17 @@ The primary goal of this application is to handle essential student data and man
 | **HTML** | Structuring the web pages and content. |
 | **CSS** | Styling the application for a clean, user-friendly interface. |
 | **JavaScript (JS)** | Implementing the core logic, functionality, and data handling. |
+
+
+## SCREENSHOT'S
+
+<div style="display="flex";> <h4>LOGIN SCREEN </h4>
+<img width="500" height="299" alt="image" src="https://github.com/user-attachments/assets/d162035c-8b85-421f-8981-a8a9e49211cc" />
+
+<h4>Selection Screen </h4>
+<img width="500" height="299" alt="image" src="https://github.com/user-attachments/assets/ef4fe683-572b-4740-8866-a61615684d20" />
+</div>
+
 
 
 ## 🚀 How to Use (Local Setup)
