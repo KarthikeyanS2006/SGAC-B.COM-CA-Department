@@ -8,6 +8,19 @@
 This is my **first attempt** at building a fully functional web application!
 
 This project is a simple **Student Management System** developed specifically for the B.COM CA Department at SGAC. It was built entirely by me using fundamental web technologies to gain hands-on experience in frontend development.
+___
+
+## 🎯 Project Goal and Purpose
+
+This project is a **standalone Student Management System (SMS)** specifically created for the B.COM (Computer Applications) Department.
+
+It represents my **first self-directed development effort** to build a functional web application from scratch. The core purpose of this system is to provide a simple, effective digital interface for managing and accessing essential student details and departmental information without relying on external frameworks or backend databases.
+
+### Key Focus:
+
+* **Self-Learning:** A practical exercise to master fundamental HTML structure, CSS styling, and JavaScript logic.
+* **Utility:** Providing basic, centralized data storage and management capabilities for student records.
+* **Simplicity:** Maintaining a clean, client-side structure for ease of deployment and maintenance.
 
 ## ✨ Key Features
 
