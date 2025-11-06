@@ -25,6 +25,7 @@ The primary goal of this application is to handle essential student data and man
 | **CSS** | Styling the application for a clean, user-friendly interface. |
 | **JavaScript (JS)** | Implementing the core logic, functionality, and data handling. |
 
+___
 
 ## SCREENSHOT'S
 
@@ -33,9 +34,23 @@ The primary goal of this application is to handle essential student data and man
 
 <h4>Selection Screen </h4>
 <img width="500" height="299" alt="image" src="https://github.com/user-attachments/assets/ef4fe683-572b-4740-8866-a61615684d20" />
+
+<h4>Personal Students Login page</h4>
+<img width="500" height="299" alt="image" src="https://github.com/user-attachments/assets/1b88c2fd-1168-4be4-83f6-6dbb1cd05fd6" />
+
+<h4>Students Dashboard </h4>
+<img width="500" height="299" alt="image" src="https://github.com/user-attachments/assets/c42bb114-f50c-48e0-9f4f-e53d458a49c3" />
+
+<h4>students Details page</h4>
+<img width="500" height="299" alt="image" src="https://github.com/user-attachments/assets/45d8374b-438a-45aa-a26c-b0c2b6897932" />
+
+<h4>Courses Details </h4>
+<img width="500" height="299" alt="image" src="https://github.com/user-attachments/assets/967a7584-0f44-42d6-ab58-20885465a2d4" />
+ <h4>Assignment Page </h4>
+  <h5>The Assignment was intergrated by the Google form where students can able to uplode the files as per subject </h5>
 </div>
 
-
+___
 
 ## 🚀 How to Use (Local Setup)
 
